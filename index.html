@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChokisPlanet</title>
+    <link rel="stylesheet" href="pasteleria.css">
+</head>
+<header>
+    <h2>ChokisPlanet</h2>
+    <nav>
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#pasteles">Pasteles</a></li>
+        <li><a href="#adornos">Adornos</a></li>
+        <li><a href="#pedido">Realiar Pedido</a></li>
+        <li><a href="admin.html">Admin Dashboard</a></li>
+    </ul>
+  </nav>
+</header>
+
+<body>
+    <article class="home">
+        <img src="./CHPlanet.png" alt="Logo ChokisPlanet" width="350px" height="350px">
+        <h2 class="Eslo">Infinidades de sabores y posibilidades en un solo lugar</h2>
+        <hr>
+    </article>
+    <article class="fondoColor" id="pasteles">
+        <h2>Pasteles</h2>
+        <div id="caja-master">
+            <div id="pastel-info">
+                <img src="./ChocoC.jpeg" alt="">
+                <h3>Pastel de Chocolate</h3>
+                <h3>Precio: $300</h3>
+            </div>
+            <div id="pastel-info">
+                <img src="./LimonC.jpeg" alt="">
+                <h3>Pastel de Limon</h3>
+                <h3>Precio: $350</h3>
+            </div>
+            <div id="pastel-info">
+                <img src="./RedVC.jpeg" alt="">
+                <h3>Pastel de Red Velvet</h3>
+                <h3>Precio: $400</h3>
+            </div>
+        </div>
+    </article>
+    <article class="fondoColor" id="pasteles">
+        <div id="caja-master">
+            <div id="pastel-info">
+                <img src="./P3L.jpeg" alt="">
+                <h3>Pastel de tres leches</h3>
+                <h3>Precio: $300</h3>
+            </div>
+            <div id="pastel-info">
+                <img src="./PFresa.jpeg" alt="">
+                <h3>Pastel de Fresa</h3>
+                <h3>Precio: $250</h3>
+            </div>
+            <div id="pastel-info">
+                <img src="./PHelado.jpeg" alt="">
+                <h3>Pastel de Helado</h3>
+                <h3>Precio: $370</h3>
+            </div>
+        </div>
+    </article>
+    <article class="fondoColor" id="adornos">
+        <h2>Adornos y decoracion</h2>
+        <div id="caja-master">
+            <div id="pastel-info">
+                <img src="./deco.jpg" alt="">
+                <h3>Pastel tematico (decoracion)</h3>
+                <h3>Precio: $50 en adelante</h3>
+            </div>
+            <div id="pastel-info">
+                <img src="./DMP.jpeg" alt="">
+                <h3>Muñecos personalizados</h3>
+                <h3>Precio: $30</h3>
+            </div>
+            <div id="pastel-info">
+                <img src="./TVolcan.jpeg" alt="">
+                <h3>Velas tipo volcan</h3>
+                <h3>Precio: $10</h3>
+            </div>
+        </div>
+    </article>
+    <article class="pedido" id="pedido">
+        <h2>Pedidos</h2>
+        <div class="div-pedido">
+            <form action="">
+                <h2 id="FTitulo">Del espacio hasta tu casa</h2> 
+                <label for="Nombre1">Nombre:</label>
+                <input type="text" id="Nombre1" placeholder="Tu nombre aqui">
+                <label for="Tel1">Telefono:</label>
+                <input type="tel" id="tel1" maxlength="10" placeholder="Tu telefono aqui">
+                <label for="correo1">Input de Correo</label>
+                <input type="email" id="correo1" placeholder="ejemplo@ejemplo.com">
+                <label for="Spec">Especificaciones de su pedido</label>
+                <textarea id="Spec" rows="10" cols="40" placeholder="¿Que necesita tu obra maestra?"></textarea>
+                <h3>Selecciona los sabores</h3>
+                <p><input type="checkbox" id="sabor1" name="sabor1"> Chocolate </p>
+                <p><input type="checkbox" id="sabor2" name="sabor2"> Limon </p>
+                <p><input type="checkbox" id="sabor3" name="sabor3"> Red Velvet </p>
+                <h3>Selecciona las decoraciones</h3>
+                <p><input type="checkbox" id="adorno1" name="adorno1"> Pastel tematico </p>
+                <p><input type="checkbox" id="adorno2" name="adorno2"> Muñecos personaliados </p>
+                <p><input type="checkbox" id="adorno3" name="adorno3"> Velas tipo volcan </p>
+                <br>
+                <input type="submit" value="Subir">
+                <input type="reset">
+            </form>
+            <img src="./AstroRepa.png" alt="Imagen repartidor" height="350px" width="350px">
+        </div>
+    </article>
+
+</body>
+</html>
